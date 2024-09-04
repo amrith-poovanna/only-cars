@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/only-cars/static/css/main.73674160.css",
-    "main.js": "/only-cars/static/js/main.29b807e6.js",
-    "static/media/8297.jpg": "/only-cars/static/media/8297.eb3542e213b51c222350.jpg",
-    "static/media/3607.jpg": "/only-cars/static/media/3607.0b931d9d4bdc982175b6.jpg",
-    "static/media/9179.jpg": "/only-cars/static/media/9179.8efbcc75a9c7a263d731.jpg",
-    "static/media/5850.jpg": "/only-cars/static/media/5850.231ddebffb05c8b0bb87.jpg",
-    "static/media/2367.jpg": "/only-cars/static/media/2367.7c0f848280130a9e8e17.jpg",
-    "static/media/9747.jpg": "/only-cars/static/media/9747.df316f86e2dc52f9cecd.jpg",
+    "main.css": "/only-cars/static/css/main.199671bb.css",
+    "main.js": "/only-cars/static/js/main.dee1c719.js",
+    "static/media/ka51mh8297.jpg": "/only-cars/static/media/ka51mh8297.eb3542e213b51c222350.jpg",
+    "static/media/ka01mv3607.jpg": "/only-cars/static/media/ka01mv3607.0b931d9d4bdc982175b6.jpg",
+    "static/media/ka05mx9179.jpg": "/only-cars/static/media/ka05mx9179.8efbcc75a9c7a263d731.jpg",
+    "static/media/ka02ml5850.jpg": "/only-cars/static/media/ka02ml5850.231ddebffb05c8b0bb87.jpg",
+    "static/media/ka41mb2367.jpg": "/only-cars/static/media/ka41mb2367.7c0f848280130a9e8e17.jpg",
+    "static/media/ka41mb9747.jpg": "/only-cars/static/media/ka41mb9747.df316f86e2dc52f9cecd.jpg",
     "index.html": "/only-cars/index.html",
-    "main.73674160.css.map": "/only-cars/static/css/main.73674160.css.map",
-    "main.29b807e6.js.map": "/only-cars/static/js/main.29b807e6.js.map"
+    "main.199671bb.css.map": "/only-cars/static/css/main.199671bb.css.map",
+    "main.dee1c719.js.map": "/only-cars/static/js/main.dee1c719.js.map"
   },
   "entrypoints": [
-    "static/css/main.73674160.css",
-    "static/js/main.29b807e6.js"
+    "static/css/main.199671bb.css",
+    "static/js/main.dee1c719.js"
   ]
 }
