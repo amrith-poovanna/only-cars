@@ -12,6 +12,9 @@ const CarTile = ({ car }) => {
     }
   };
 
+  const formatPrice = (price) => {
+    return new Intl.NumberFormat('en-IN').format(price);
+  };
   const imageUrl = importImage(car.ImageName);
 
   return (
@@ -35,7 +38,7 @@ const CarTile = ({ car }) => {
         <Typography variant="h6" component="div" className="price-div">
             <Box className="price-box">
                 <CurrencyRupee fontSize="small" />
-                {car.CoatPrice}
+                {formatPrice(car.CoatPrice)}
             </Box>
         </Typography>
       </CardContent>
