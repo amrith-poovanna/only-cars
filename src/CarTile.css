@@ -33,4 +33,11 @@
   .car-list {
     padding: 1em;
   }
-  
+  .price-div {
+    text-align: center;
+  }
+  .price-box {
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center;
+  }

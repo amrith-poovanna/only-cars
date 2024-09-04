@@ -12,7 +12,9 @@ function App() {
             Contact Amrith Poovanna : 8970312345 
         </Typography>
       </header>
-      <CarList />
+      <div className="CarListContainer">
+        <CarList />
+      </div>
     </div>
   );
 }

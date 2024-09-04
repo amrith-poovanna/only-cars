@@ -1,6 +1,5 @@
 [
     {
-    "id": 1,
     "CarId": "c290da32-d00c-42f7-9db1-6b5902168a3d",
     "RegistrationNo": "KA 41 MB 2367",
     "Manufacturer": "Hyundai",
@@ -14,10 +13,10 @@
     "Owners": 1,
     "Sunroof": false,
     "Thumbnail": null,
-    "CoatPrice": 1485000
+    "CoatPrice": 1485000,
+    "ImageName": "ka41mb2367.jpg"
   },
   {
-    "id": 2,
     "CarId": "61c3c6d1-1618-41b7-a291-6cdd28126521",
     "RegistrationNo": "KA 41 MB 9747",
     "Manufacturer": "Isuzu",
@@ -31,10 +30,10 @@
     "Owners": 2,
     "Sunroof": false,
     "Thumbnail": null,
-    "CoatPrice": 2200000
+    "CoatPrice": 2200000,
+    "ImageName": "ka41mb9747.jpg"
   },
   {
-    "id": 3,
     "CarId": "05b01587-1901-4240-be99-7d11b1630b00",
     "RegistrationNo": "KA 05 MX 9179",
     "Manufacturer": "Isuzu",
@@ -48,10 +47,10 @@
     "Owners": 2,
     "Sunroof": false,
     "Thumbnail": null,
-    "CoatPrice": 1525000
+    "CoatPrice": 1525000,
+    "ImageName": "ka05mx9179.jpg"
   },
   {
-    "id": 4,
     "CarId": "8ac57a87-66d9-4a6c-9c8d-8a449d2d2dbc",
     "RegistrationNo": "KA 02 ML 5850",
     "Manufacturer": "Volkswagen",
@@ -65,10 +64,10 @@
     "Owners": 2,
     "Sunroof": false,
     "Thumbnail": null,
-    "CoatPrice": 750000
+    "CoatPrice": 750000,
+    "ImageName": "ka02ml5850.jpg"
   },
   {
-    "id": 5,
     "CarId": "01d46ba5-df66-4896-85d3-b9e4d788d50d",
     "RegistrationNo": "KA 51 MH 8297",
     "Manufacturer": "BMW",
@@ -82,10 +81,10 @@
     "Owners": 2,
     "Sunroof": false,
     "Thumbnail": null,
-    "CoatPrice": 1900000
+    "CoatPrice": 1900000,
+    "ImageName": "ka51mh8297.jpg"
   },
   {
-    "id": 6,
     "CarId": "f0f09fc4-c638-4dbc-920d-de95f2bd34f4",
     "RegistrationNo": "KA 01 MV 3607",
     "Manufacturer": "Ford",
@@ -99,6 +98,7 @@
     "Owners": 1,
     "Sunroof": false,
     "Thumbnail": null,
-    "CoatPrice": 1095000
+    "CoatPrice": 1095000,
+    "ImageName": "ka01mv3607.jpg"
   }
 ]

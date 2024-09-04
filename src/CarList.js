@@ -8,7 +8,7 @@ const CarList = () => {
   return (
     <Grid container spacing={4} className="car-list">
       {cars.map(car => (
-        <Grid item xs={12} sm={6} md={4} key={car.id}>
+        <Grid item xs={12} sm={6} md={4} key={car.CarId}>
           <CarTile car={car} />
         </Grid>
       ))}
