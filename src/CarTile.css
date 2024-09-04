@@ -1,0 +1,36 @@
+.card {
+    max-width: 345px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .car-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-media {
+    height: 15em;
+    /* object-fit: contain; Use 'contain' if you want to avoid cropping */
+  }
+  
+  .card-content {
+    text-align: center;
+    min-height: 150px; /* Adjust this value based on your design */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-weight: 600;
+    margin-bottom: 8px; /* Adjust this value to control the space below the title */
+  }
+  
+  .year {
+    color: #6c757d; /* Use a color that matches your theme */
+  }
+  
+  .car-list {
+    padding: 1em;
+  }
+  
