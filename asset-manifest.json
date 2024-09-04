@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/only-cars/static/css/main.73674160.css",
-    "main.js": "/only-cars/static/js/main.5250d05e.js",
+    "main.js": "/only-cars/static/js/main.29b807e6.js",
     "static/media/8297.jpg": "/only-cars/static/media/8297.eb3542e213b51c222350.jpg",
     "static/media/3607.jpg": "/only-cars/static/media/3607.0b931d9d4bdc982175b6.jpg",
     "static/media/9179.jpg": "/only-cars/static/media/9179.8efbcc75a9c7a263d731.jpg",
@@ -10,10 +10,10 @@
     "static/media/9747.jpg": "/only-cars/static/media/9747.df316f86e2dc52f9cecd.jpg",
     "index.html": "/only-cars/index.html",
     "main.73674160.css.map": "/only-cars/static/css/main.73674160.css.map",
-    "main.5250d05e.js.map": "/only-cars/static/js/main.5250d05e.js.map"
+    "main.29b807e6.js.map": "/only-cars/static/js/main.29b807e6.js.map"
   },
   "entrypoints": [
     "static/css/main.73674160.css",
-    "static/js/main.5250d05e.js"
+    "static/js/main.29b807e6.js"
   ]
 }
