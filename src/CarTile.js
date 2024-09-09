@@ -36,7 +36,7 @@ const CarTile = ({ car }) => {
             {car.Driven} km . {car.FuelType} . {car.Transmission}
         </Typography>
         <Typography variant="subtitle2" color="text.secondary">
-            Owners: {car.Owners} . Insurance {car.InsuranceType}
+            Owners: {car.Owners} . Insurance: {car.InsuranceType}
         </Typography>
         <Typography variant="h6" component="div" className="price-div">
             <Box className="price-box">
