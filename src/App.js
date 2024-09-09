@@ -8,8 +8,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Only Cars</h1>
+        <small>By Amrith Poovanna</small>
         <Typography variant="h6">
-            Contact Amrith Poovanna : 8970312345 
+            Contact :+91 8970312345 
         </Typography>
       </header>
       <div className="CarListContainer">
