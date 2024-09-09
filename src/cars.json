@@ -14,7 +14,8 @@
     "Sunroof": false,
     "Thumbnail": null,
     "CoatPrice": 1485000,
-    "ImageName": "ka41mb2367.jpg"
+    "ImageName": "ka41mb2367.jpg",
+    "InsuranceType": "Comprehensive"
   },
   {
     "CarId": "61c3c6d1-1618-41b7-a291-6cdd28126521",
@@ -31,7 +32,8 @@
     "Sunroof": false,
     "Thumbnail": null,
     "CoatPrice": 2200000,
-    "ImageName": "ka41mb9747.jpg"
+    "ImageName": "ka41mb9747.jpg",
+    "InsuranceType": "Comprehensive"
   },
   {
     "CarId": "05b01587-1901-4240-be99-7d11b1630b00",
@@ -48,7 +50,8 @@
     "Sunroof": false,
     "Thumbnail": null,
     "CoatPrice": 1525000,
-    "ImageName": "ka05mx9179.jpg"
+    "ImageName": "ka05mx9179.jpg",
+    "InsuranceType": "Comprehensive"
   },
   {
     "CarId": "8ac57a87-66d9-4a6c-9c8d-8a449d2d2dbc",
@@ -65,7 +68,8 @@
     "Sunroof": false,
     "Thumbnail": null,
     "CoatPrice": 750000,
-    "ImageName": "ka02ml5850.jpg"
+    "ImageName": "ka02ml5850.jpg",
+    "InsuranceType": "Comprehensive"
   },
   {
     "CarId": "01d46ba5-df66-4896-85d3-b9e4d788d50d",
@@ -82,7 +86,8 @@
     "Sunroof": false,
     "Thumbnail": null,
     "CoatPrice": 1900000,
-    "ImageName": "ka51mh8297.jpg"
+    "ImageName": "ka51mh8297.jpg",
+    "InsuranceType": "Comprehensive"
   },
   {
     "CarId": "f0f09fc4-c638-4dbc-920d-de95f2bd34f4",
@@ -99,6 +104,7 @@
     "Sunroof": false,
     "Thumbnail": null,
     "CoatPrice": 1095000,
-    "ImageName": "ka01mv3607.jpg"
+    "ImageName": "ka01mv3607.jpg",
+    "InsuranceType": "Comprehensive"
   }
 ]
