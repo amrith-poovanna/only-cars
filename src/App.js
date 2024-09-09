@@ -11,8 +11,10 @@ function App() {
         <img src={logo} alt="Only Cars Logo" className="logo" />
         <h1>Only Cars</h1>
         <p className="slogan">Where Quality Meets the Road</p>
-        <Typography variant="body2" className='contact'>
-            Contact Amrith Poovanna :+91 8970312345 
+        <Typography variant="body2" className="contact">
+          <a href="tel:+918970312345" style={{ textDecoration: 'none', color: 'inherit' }}>
+            Contact Amrith Poovanna: +91 8970312345
+          </a>
         </Typography>
       </header>
       <div className="CarListContainer">
