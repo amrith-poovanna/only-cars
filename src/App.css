@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #012023;
   color: white;
   position: fixed;
   top: 0;
@@ -33,11 +33,24 @@
 .App-header h1 {
   margin-top: -0.2em;
   margin-bottom: -0.2em;
+  font-family: 'Trebuchet MS', sans-serif; /* Rounded fonts */
+  font-weight: bold; /* Make it bold */
+  font-size: 1.5em;   /* Adjust size to your preference */
 }
 
 .App-header small {
   font-size: 0.8em; 
   margin-top: 0;    
+}
+.App-header .slogan {
+  font-size: 0.6em; /* Adjust size */
+  margin-top: 5px;  /* Control spacing */
+  font-style: italic; /* Optional: make it italic for emphasis */
+  font-family: 'Trebuchet MS', sans-serif;
+}
+.App-header .logo {
+  width: 8em; /* Adjust size */
+  height: auto;
 }
 
 @keyframes App-logo-spin {

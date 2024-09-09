@@ -2,16 +2,18 @@ import React from 'react';
 import CarList from './CarList';
 import './App.css';
 import { Typography } from '@mui/material';
+import logo from './assets/logo.png'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <img src={logo} alt="Only Cars Logo" className="logo" />
         <h1>Only Cars</h1>
-        <small>By Amrith Poovanna</small>
-        <Typography variant="h6">
-            Contact :+91 8970312345 
-        </Typography>
+        <p className="slogan">Where Quality Meets the Road</p>
+        {/* <Typography variant="h6">
+            Contact Amrith Poovanna :+91 8970312345 
+        </Typography> */}
       </header>
       <div className="CarListContainer">
         <CarList />
