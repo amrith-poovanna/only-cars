@@ -11,9 +11,9 @@ function App() {
         <img src={logo} alt="Only Cars Logo" className="logo" />
         <h1>Only Cars</h1>
         <p className="slogan">Where Quality Meets the Road</p>
-        {/* <Typography variant="h6">
+        <Typography variant="body2" className='contact'>
             Contact Amrith Poovanna :+91 8970312345 
-        </Typography> */}
+        </Typography>
       </header>
       <div className="CarListContainer">
         <CarList />

@@ -52,7 +52,10 @@
   width: 8em; /* Adjust size */
   height: auto;
 }
-
+.App-header .contact {
+  background-color: bisque;
+  color: black;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
