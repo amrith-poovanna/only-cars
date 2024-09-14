@@ -1,43 +1,71 @@
-.card {
-    max-width: 345px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  
-  .car-card {
-    display: flex;
-    flex-direction: column;
-  }
-  .card-media {
-    height: 15em;
-    /* object-fit: contain; Use 'contain' if you want to avoid cropping */
-  }
-  
-  .card-content {
-    text-align: center;
-    min-height: 150px; /* Adjust this value based on your design */
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .title {
-    font-weight: 600;
-    margin-bottom: 8px; /* Adjust this value to control the space below the title */
-  }
-  
-  .year {
-    color: #6c757d; /* Use a color that matches your theme */
-  }
-  
-  .car-list {
-    padding: 1em;
-  }
-  .price-div {
-    text-align: center;
-  }
-  .price-box {
-    display: inline-flex; 
-    align-items: center;
-    justify-content: center;
-  }
+.car-card {
+  position: relative; /* Make the card a relative container */
+  display: flex;
+  flex-direction: column;
+  max-width: 345px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-media {
+  height: 15em;
+  /* object-fit: contain; Use 'contain' if you want to avoid cropping */
+}
+
+.card-content {
+  text-align: center;
+  min-height: 150px; /* Adjust this value based on your design */
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 600;
+  margin-bottom: 8px; /* Adjust this value to control the space below the title */
+}
+
+.year {
+  color: #6c757d; /* Use a color that matches your theme */
+}
+
+.car-list {
+  padding: 1em;
+}
+
+.price-div {
+  text-align: center;
+}
+
+.price-box {
+  display: inline-flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-row {
+  display: flex;
+  justify-content: space-between; /* Spread the icons to the left and right */
+  position: absolute;
+  bottom: 1px; /* Add some space from the bottom */
+  left: 16px; /* Add some space from the left */
+  right: 16px; /* Add some space from the right */
+  padding: 0 8px; /* Add padding to ensure spacing on smaller screens */
+}
+
+.call-icon, .whatsapp-icon {
+  background-color: white;
+  border-radius: 50%;
+}
+
+.call-icon {
+  color: #007bff; /* Call icon color */
+}
+
+.whatsapp-icon {
+  color: #25D366; /* WhatsApp icon color */
+}
+
+.icon-row > * {
+  margin: 0 8px; /* Add some margin between the icons */
+}

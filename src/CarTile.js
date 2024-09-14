@@ -1,6 +1,6 @@
 import React from 'react';
-import { Card, CardMedia, CardContent, Typography, Box } from '@mui/material';
-import { CurrencyRupee } from '@mui/icons-material';
+import { Card, CardMedia, CardContent, Typography, Box, IconButton } from '@mui/material';
+import { CurrencyRupee, WhatsApp, Phone } from '@mui/icons-material';
 import './CarTile.css'; // Import the CSS file
 
 const CarTile = ({ car }) => {
@@ -14,6 +14,18 @@ const CarTile = ({ car }) => {
 
   const formatPrice = (price) => {
     return new Intl.NumberFormat('en-IN').format(price);
+  };
+
+  const handleWhatsAppClick = () => {
+    const phoneNumber = '+918970312345'; 
+    const message = `Hello, I'm interested in the ${car.Manufacturer} ${car.Model} (${car.ManufacturingYear}) listed for Rs. ${formatPrice(car.CoatPrice)}.`;
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
+  };
+
+  const handleCallClick = () => {
+    const phoneNumber = '+918970312345'; 
+    window.location.href = `tel:${phoneNumber}`;
   };
   const imageUrl = importImage(car.ImageName);
 
@@ -44,6 +56,17 @@ const CarTile = ({ car }) => {
                 {formatPrice(car.CoatPrice)}
             </Box>
         </Typography>
+        {/* Call and WhatsApp Icons */}
+        <Box className="icon-row">
+          <IconButton className="call-icon" onClick={handleCallClick}>
+            <Phone fontSize="medium" style={{ color: '#007bff' }} />
+            {/* <span className="icon-text">Call</span> */}
+          </IconButton>
+          <IconButton className="whatsapp-icon" onClick={handleWhatsAppClick}>
+            <WhatsApp fontSize="medium" style={{ color: '#25D366' }} />
+            {/* <span className="icon-text">Message</span> */}
+          </IconButton>
+        </Box>
       </CardContent>
     </Card>
   );
