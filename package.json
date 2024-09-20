@@ -2,7 +2,7 @@
   "name": "only-cars",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://onlycars.co.in/only-cars",
+  "homepage": "https://onlycars.co.in/",
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
