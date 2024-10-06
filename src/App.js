@@ -27,6 +27,7 @@ function App() {
         <Routes>
           <Route path="/" element={<CarList />} />
           <Route path="/car/:carId" element={<CarDetails />} />
+          <Route path="*" element={<CarList />} />
         </Routes>
       </div>
     </div>
