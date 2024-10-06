@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa7138f3.css",
-    "main.js": "/static/js/main.63cb5f5f.js",
+    "main.css": "/static/css/main.dea22789.css",
+    "main.js": "/static/js/main.7edeb0ed.js",
     "static/media/ka51mh8297.jpg": "/static/media/ka51mh8297.eb3542e213b51c222350.jpg",
     "static/media/ka01mv3607.jpg": "/static/media/ka01mv3607.0b931d9d4bdc982175b6.jpg",
     "static/media/ka02ml5850.jpg": "/static/media/ka02ml5850.aae0ffb74ba8a04a62bc.jpg",
@@ -51,11 +51,11 @@
     "static/media/tuscon_9.jpg": "/static/media/tuscon_9.094027324de327fc47bd.jpg",
     "static/media/logo.png": "/static/media/logo.ed7a41c63486f573ff22.png",
     "index.html": "/index.html",
-    "main.aa7138f3.css.map": "/static/css/main.aa7138f3.css.map",
-    "main.63cb5f5f.js.map": "/static/js/main.63cb5f5f.js.map"
+    "main.dea22789.css.map": "/static/css/main.dea22789.css.map",
+    "main.7edeb0ed.js.map": "/static/js/main.7edeb0ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa7138f3.css",
-    "static/js/main.63cb5f5f.js"
+    "static/css/main.dea22789.css",
+    "static/js/main.7edeb0ed.js"
   ]
 }
