@@ -178,7 +178,7 @@ const CarDetails = () => {
                   fullWidth
                   onClick={handleWhatsAppClick}
                 >
-                  Make Offer
+                  Message
                 </Button>
               </Box>
             </Box>
