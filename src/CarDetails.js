@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { Typography, Box, IconButton, Grid, Button, Modal } from '@mui/material';
 import { CurrencyRupee, WhatsApp, Phone, ArrowBackIos, ArrowForwardIos, Close } from '@mui/icons-material';
 import { useSwipeable } from 'react-swipeable';
 import cars from './cars.json'; // Import car data
-import { Link } from 'react-router-dom';
 
 const CarDetails = () => {
   const { carId } = useParams();
@@ -40,6 +39,7 @@ const CarDetails = () => {
     setCurrentImageIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
   };
 
+  // Swipeable handlers
   const swipeHandlers = useSwipeable({
     onSwipedLeft: handleSwipeLeft,
     onSwipedRight: handleSwipeRight,
@@ -49,19 +49,19 @@ const CarDetails = () => {
     delta: 10,
   });
 
-  // Handle opening the full screen modal
+  // Handle opening the full-screen modal
   const handleImageClick = () => {
     setIsModalOpen(true);
   };
 
-  // Handle closing the full screen modal
+  // Handle closing the full-screen modal
   const handleCloseModal = () => {
     setIsModalOpen(false);
   };
 
   return (
     <Box style={{ marginTop: '1em' }}>
-      {/* Swipeable image container */}
+      {/* Swipeable image container in normal view */}
       <div {...swipeHandlers} style={{ position: 'relative', width: '100%', overflow: 'hidden', textAlign: 'center', touchAction: 'pan-y' }}>
         <IconButton
           style={{
@@ -212,7 +212,6 @@ const CarDetails = () => {
           </Link>
         </Box>
       </Box>
-
       {/* Full-Screen Modal */}
       <Modal
         open={isModalOpen}
@@ -232,7 +231,7 @@ const CarDetails = () => {
             justifyContent: 'center'
           }}
         >
-          {/* Close Button in Circle */}
+          {/* Close Button in Smaller Circle */}
           <Box
             style={{
               position: 'absolute',
@@ -240,57 +239,63 @@ const CarDetails = () => {
               right: '20px',
               backgroundColor: 'white',
               borderRadius: '50%',
-              padding: '5px',
+              padding: '3px', // Reduced padding
               boxShadow: '0 2px 5px rgba(0, 0, 0, 0.3)',
             }}
           >
             <IconButton
               style={{
                 color: 'black',
+                fontSize: '20px', // Adjust font size to make the icon smaller
               }}
               onClick={handleCloseModal}
             >
-              <Close fontSize="large" />
+              <Close fontSize="inherit" /> {/* Use inherit to match the IconButton's font size */}
             </IconButton>
           </Box>
 
-          <IconButton
-            style={{
-              position: 'absolute',
-              left: '10px',
-              top: '50%',
-              transform: 'translateY(-50%)',
-              zIndex: 10,
-              display: images.length > 1 ? 'block' : 'none',
-              color: 'white',
-            }}
-            onClick={handleSwipeRight}
-          >
-            <ArrowBackIos fontSize="large" />
-          </IconButton>
-          <img
-            src={images[currentImageIndex]}
-            alt={`${car.Manufacturer} ${car.Model}`}
-            style={{
-              width: '100%',
-              height: '100%',
-              objectFit: 'contain',
-            }}
-          />
-          <IconButton
-            style={{
-              position: 'absolute',
-              right: '10px',
-              top: '50%',
-              transform: 'translateY(-50%)',
-              zIndex: 10,
-              display: images.length > 1 ? 'block' : 'none',
-              color: 'white',
-            }}
-            onClick={handleSwipeLeft}
-          >
-            <ArrowForwardIos fontSize="large" />
-          </IconButton>
+          {/* Swipeable image in modal */}
+          <div {...swipeHandlers} style={{ width: '100%', height: '100%', touchAction: 'pan-y' }}>
+            <IconButton
+              style={{
+                position: 'absolute',
+                left: '10px',
+                top: '50%',
+                transform: 'translateY(-50%)',
+                zIndex: 10,
+                display: images.length > 1 ? 'block' : 'none',
+                color: 'white',
+              }}
+              onClick={handleSwipeRight}
+            >
+              <ArrowBackIos fontSize="large" />
+            </IconButton>
+
+            <img
+              src={images[currentImageIndex]}
+              alt={`${car.Manufacturer} ${car.Model}`}
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'contain',
+              }}
+            />
+
+            <IconButton
+              style={{
+                position: 'absolute',
+                right: '10px',
+                top: '50%',
+                transform: 'translateY(-50%)',
+                zIndex: 10,
+                display: images.length > 1 ? 'block' : 'none',
+                color: 'white',
+              }}
+              onClick={handleSwipeLeft}
+            >
+              <ArrowForwardIos fontSize="large" />
+            </IconButton>
+          </div>
         </Box>
       </Modal>
     </Box>
