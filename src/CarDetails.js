@@ -39,18 +39,19 @@ const CarDetails = () => {
     setCurrentImageIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
   };
 
-  // Attach swipe handlers
   const swipeHandlers = useSwipeable({
     onSwipedLeft: handleSwipeLeft,
     onSwipedRight: handleSwipeRight,
     trackMouse: true, // Enables mouse dragging
-    preventDefaultTouchmoveEvent: true // Prevents default scrolling behavior on touch devices
+    trackTouch: true,  // Enables touch swiping
+    preventScrollOnSwipe: true,  // Prevents vertical scroll
+    delta: 10, // Adjust sensitivity for swipe
   });
 
   return (
     <Box style={{ marginTop: '1em' }}>
       {/* Swipeable image container */}
-      <div {...swipeHandlers} style={{ position: 'relative', width: '100%', overflow: 'hidden', textAlign: 'center' }}>
+      <div {...swipeHandlers} style={{ position: 'relative', width: '100%', overflow: 'hidden', textAlign: 'center', touchAction: 'pan-y', }}>
         <IconButton
           style={{
             position: 'absolute',
