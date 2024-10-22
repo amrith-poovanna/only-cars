@@ -128,7 +128,7 @@ const CarDetails = () => {
 
       {/* Car Details in a Responsive Grid Format */}
       <Box p={2} style={{ backgroundColor: '#f5f5f5', marginTop: '20px' }}>
-        <Typography variant="h6">{car.Manufacturer} {car.Model}</Typography>
+        <Typography variant="h6">{car.Manufacturer} {car.Model} {car.Varient}</Typography>
         <Grid container spacing={2} style={{ marginTop: '20px', marginLeft: '-8px' }}>
           {[
             { label: "Price", value: <><span className="price-div">
