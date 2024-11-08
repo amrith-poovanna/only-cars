@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dea22789.css",
-    "main.js": "/static/js/main.57fe2ef7.js",
+    "main.js": "/static/js/main.3eab408a.js",
     "static/media/volvo_1.jpg": "/static/media/volvo_1.0cf656541b73693acc5d.jpg",
     "static/media/ka51mh8297.jpg": "/static/media/ka51mh8297.eb3542e213b51c222350.jpg",
     "static/media/volvo_3.jpg": "/static/media/volvo_3.327d148699cfea40b916.jpg",
@@ -65,15 +65,17 @@
     "static/media/polo_9.jpg": "/static/media/polo_9.25aae2f1589175ee43ac.jpg",
     "static/media/mux_5.jpg": "/static/media/mux_5.f8ab72e8b10e8961a934.jpg",
     "static/media/mux_6.jpg": "/static/media/mux_6.667b06c5ae97552c7500.jpg",
+    "static/media/newlogo1.jpg": "/static/media/newlogo1.4b05ad92dacc29bd3798.jpg",
     "static/media/ka41mb9747.jpg": "/static/media/ka41mb9747.df316f86e2dc52f9cecd.jpg",
     "static/media/tuscon_9.jpg": "/static/media/tuscon_9.094027324de327fc47bd.jpg",
+    "static/media/newlogo.png": "/static/media/newlogo.89c6e365fe32e740fcd9.png",
     "static/media/logo.png": "/static/media/logo.ed7a41c63486f573ff22.png",
     "index.html": "/index.html",
     "main.dea22789.css.map": "/static/css/main.dea22789.css.map",
-    "main.57fe2ef7.js.map": "/static/js/main.57fe2ef7.js.map"
+    "main.3eab408a.js.map": "/static/js/main.3eab408a.js.map"
   },
   "entrypoints": [
     "static/css/main.dea22789.css",
-    "static/js/main.57fe2ef7.js"
+    "static/js/main.3eab408a.js"
   ]
 }
