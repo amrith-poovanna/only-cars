@@ -14,7 +14,7 @@
     "Owners": 2,
     "Sunroof": true,
     "Thumbnail": null,
-    "CoatPrice": 2990000,
+    "CoatPrice": 3190000,
     "ImageNames": ["volvo_1.jpg","volvo_2.jpg", "volvo_3.jpg", "volvo_4.jpg", "volvo_5.jpg", "volvo_6.jpg", "volvo_7.jpg", "volvo_8.jpg", "volvo_9.jpg"],
     "InsuranceType": "Comprehensive",
     "Sold": false
@@ -74,7 +74,7 @@
     "CoatPrice": 750000,
     "ImageNames": ["ka02ml5850.jpg","polo_1.jpg","polo_2.jpg","polo_3.jpg","polo_4.jpg","polo_5.jpg","polo_6.jpg","polo_7.jpg","polo_8.jpg","polo_9.jpg"],
     "InsuranceType": "Comprehensive",
-    "Sold": false
+    "Sold": true
   },
   
   {
@@ -94,7 +94,7 @@
     "CoatPrice": 1045000,
     "ImageNames": ["ka01mv3607.jpg", "ford_1.jpg", "ford_2.jpg", "ford_3.jpg", "ford_4.jpg", "ford_5.jpg", "ford_6.jpg", "ford_7.jpg", "ford_8.jpg"],
     "InsuranceType": "Comprehensive",
-    "Sold": false
+    "Sold": true
   },
   {
     "CarId": "c290da32-d00c-42f7-9db1-6b5902168a39",
