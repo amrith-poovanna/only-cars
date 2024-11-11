@@ -1,5 +1,42 @@
 [
-    
+  {
+    "CarId": "a490da32-d00c-42f7-9db1-6b5902168a15",
+    "RegistrationNo": "KA",
+    "Manufacturer": "Audi",
+    "Model": "A4 35 TDI",
+    "Varient": "Technology pack",
+    "ManufacturingYear": 2017,
+    "RegistrationYear": 2017,
+    "FuelType": "Desiel",
+    "Transmission": "Automatic",
+    "Driven": 88000,
+    "Owners": 1,
+    "Sunroof": true,
+    "Thumbnail": null,
+    "CoatPrice": 2650000,
+    "ImageNames": ["A4-0.jpg","A4-1.jpg", "A4-2.jpg", "A4-3.jpg", "A4-4.jpg", "A4-5.jpg", "A4-6.jpg", "A4-7.jpg", "A4-8.jpg","A4-9.jpg","A4-10.jpg","A4-11.jpg","A4-12.jpg"],
+    "InsuranceType": "Comprehensive",
+    "Sold": false
+  }, 
+  {
+    "CarId": "lr90da32-d00c-42f7-9db1-6b5902168a15",
+    "RegistrationNo": "KA",
+    "Manufacturer": "Land Rover",
+    "Model": "Discovery Sport",
+    "Varient": "HSE",
+    "ManufacturingYear": 2019,
+    "RegistrationYear": 2019,
+    "FuelType": "Desiel",
+    "Transmission": "Automatic",
+    "Driven": 102000,
+    "Owners": 1,
+    "Sunroof": true,
+    "Thumbnail": null,
+    "CoatPrice": 3190000,
+    "ImageNames": ["LR-1.jpg","LR-2.jpg", "LR-3.jpg", "LR-4.jpg", "LR-5.jpg", "LR-6.jpg", "LR-7.jpg", "LR-8.jpg", "LR-9.jpg","LR-10.jpg","LR-11.jpg","LR-12.jpg"],
+    "InsuranceType": "Comprehensive",
+    "Sold": false
+  },
   {
     "CarId": "c290da32-d00c-42f7-9db1-6b5902168a15",
     "RegistrationNo": "KA",
@@ -18,7 +55,7 @@
     "ImageNames": ["volvo_1.jpg","volvo_2.jpg", "volvo_3.jpg", "volvo_4.jpg", "volvo_5.jpg", "volvo_6.jpg", "volvo_7.jpg", "volvo_8.jpg", "volvo_9.jpg"],
     "InsuranceType": "Comprehensive",
     "Sold": false
-  },
+  }, 
   {
     "CarId": "61c3c6d1-1618-41b7-a291-6cdd28126521",
     "RegistrationNo": "KA 41 MB 9747",
