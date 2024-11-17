@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dea22789.css",
-    "main.js": "/static/js/main.2800c47c.js",
+    "main.css": "/static/css/main.85a43656.css",
+    "main.js": "/static/js/main.de398f5b.js",
     "static/media/volvo_1.jpg": "/static/media/volvo_1.0cf656541b73693acc5d.jpg",
     "static/media/ka51mh8297.jpg": "/static/media/ka51mh8297.eb3542e213b51c222350.jpg",
     "static/media/volvo_3.jpg": "/static/media/volvo_3.327d148699cfea40b916.jpg",
@@ -75,6 +75,7 @@
     "static/media/tuscon_7.jpg": "/static/media/tuscon_7.e92906e7e049763d1ec0.jpg",
     "static/media/A4-5.jpg": "/static/media/A4-5.285742553ca3b90d3c5e.jpg",
     "static/media/tuscon_8.jpg": "/static/media/tuscon_8.805eb24c8062c4fe0877.jpg",
+    "static/media/logo.png": "/static/media/logo.c496c55b1eb5bcd597ab.png",
     "static/media/mux_3.jpg": "/static/media/mux_3.b87157bd1463702a25e0.jpg",
     "static/media/ford_7.jpg": "/static/media/ford_7.ed4c8466eb59e5d7b5aa.jpg",
     "static/media/A4-9.jpg": "/static/media/A4-9.5f5cffb4a18d6b319b60.jpg",
@@ -94,13 +95,13 @@
     "static/media/LR-11.jpg": "/static/media/LR-11.7e59ff940225262c8ac6.jpg",
     "static/media/newlogo.png": "/static/media/newlogo.89c6e365fe32e740fcd9.png",
     "static/media/LR-12.jpg": "/static/media/LR-12.438b9fb98e2b45729fb2.jpg",
-    "static/media/logo.png": "/static/media/logo.ed7a41c63486f573ff22.png",
+    "static/media/logo-old.png": "/static/media/logo-old.ed7a41c63486f573ff22.png",
     "index.html": "/index.html",
-    "main.dea22789.css.map": "/static/css/main.dea22789.css.map",
-    "main.2800c47c.js.map": "/static/js/main.2800c47c.js.map"
+    "main.85a43656.css.map": "/static/css/main.85a43656.css.map",
+    "main.de398f5b.js.map": "/static/js/main.de398f5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.dea22789.css",
-    "static/js/main.2800c47c.js"
+    "static/css/main.85a43656.css",
+    "static/js/main.de398f5b.js"
   ]
 }
