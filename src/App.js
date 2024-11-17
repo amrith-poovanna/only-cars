@@ -14,10 +14,9 @@ function App() {
       <header className="App-header">
         <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
             <img src={logo} alt="Only Cars Logo" className="logo" />
-            <h1>Only Cars</h1>
             <p className="slogan">Where Quality Meets the Road</p>
         </Link>
-        <Typography variant="body2" className="contact">
+        <Typography variant="body2">
           <a href="tel:+918970312345" style={{ textDecoration: 'none', color: 'inherit' }}>
             Contact Amrith Poovanna: +91 8970312345
           </a>

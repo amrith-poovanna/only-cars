@@ -14,8 +14,8 @@
 }
 
 .App-header {
-  background-color: #012023;
-  color: white;
+  background-color:#e2082f;/* #012023;*/
+  /* color: white; */
   position: fixed;
   top: 0;
   left: 0;
@@ -44,7 +44,9 @@
 }
 .App-header .slogan {
   font-size: 0.6em; /* Adjust size */
-  margin-top: 5px;  /* Control spacing */
+  margin-top: 0;
+  margin-bottom: 0.3em;
+  font-weight: bold;
   font-style: italic; /* Optional: make it italic for emphasis */
   font-family: 'Trebuchet MS', sans-serif;
 }
