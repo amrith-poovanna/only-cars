@@ -3,13 +3,13 @@
   "name": "Advertise pre-owned cars",
   "icons": [
     {
-      "src": "car.jpg",
+      "src": "car.png",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/jpg"
+      "type": "image/png"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff"
+  "theme_color": "#e2082f",
+  "background_color": "#e2082f"
 }
