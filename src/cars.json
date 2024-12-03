@@ -73,7 +73,7 @@
     "CoatPrice": 1490000,
     "ImageNames": ["ka05mx9179.jpg","vcross_1.jpg","vcross_2.jpg","vcross_3.jpg","vcross_4.jpg","vcross_5.jpg","vcross_6.jpg","vcross_7.jpg","vcross_8.jpg"],
     "InsuranceType": "Comprehensive",
-    "Sold": false
+    "Sold": true
   },
   {
     "CarId": "c290da32-d00c-42f7-9db1-6b5902168a15",
