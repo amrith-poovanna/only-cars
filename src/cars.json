@@ -19,25 +19,6 @@
     "Sold": false
   }, 
   {
-    "CarId": "lr90da32-d00c-42f7-9db1-6b5902168a15",
-    "RegistrationNo": "KA",
-    "Manufacturer": "Land Rover",
-    "Model": "Discovery Sport",
-    "Varient": "HSE",
-    "ManufacturingYear": 2019,
-    "RegistrationYear": 2019,
-    "FuelType": "Desiel",
-    "Transmission": "Automatic",
-    "Driven": 102000,
-    "Owners": 1,
-    "Sunroof": true,
-    "Thumbnail": null,
-    "CoatPrice": 3475000,
-    "ImageNames": ["LR-1.jpg","LR-2.jpg", "LR-3.jpg", "LR-4.jpg", "LR-5.jpg", "LR-6.jpg", "LR-7.jpg", "LR-8.jpg", "LR-9.jpg","LR-10.jpg","LR-11.jpg","LR-12.jpg"],
-    "InsuranceType": "Comprehensive",
-    "Sold": false
-  }, 
-  {
     "CarId": "61c3c6d1-1618-41b7-a291-6cdd28126521",
     "RegistrationNo": "KA 41 MB 9747",
     "Manufacturer": "Isuzu",
@@ -55,6 +36,25 @@
     "ImageNames": ["ka41mb9747.jpg","mux_1.jpg", "mux_2.jpg", "mux_3.jpg", "mux_4.jpg", "mux_5.jpg", "mux_6.jpg", "mux_7.jpg"],
     "InsuranceType": "Comprehensive",
     "Sold": false
+  },
+  {
+    "CarId": "lr90da32-d00c-42f7-9db1-6b5902168a15",
+    "RegistrationNo": "KA",
+    "Manufacturer": "Land Rover",
+    "Model": "Discovery Sport",
+    "Varient": "HSE",
+    "ManufacturingYear": 2019,
+    "RegistrationYear": 2019,
+    "FuelType": "Desiel",
+    "Transmission": "Automatic",
+    "Driven": 102000,
+    "Owners": 1,
+    "Sunroof": true,
+    "Thumbnail": null,
+    "CoatPrice": 3475000,
+    "ImageNames": ["LR-1.jpg","LR-2.jpg", "LR-3.jpg", "LR-4.jpg", "LR-5.jpg", "LR-6.jpg", "LR-7.jpg", "LR-8.jpg", "LR-9.jpg","LR-10.jpg","LR-11.jpg","LR-12.jpg"],
+    "InsuranceType": "Comprehensive",
+    "Sold": true
   },
   {
     "CarId": "05b01587-1901-4240-be99-7d11b1630b00",
